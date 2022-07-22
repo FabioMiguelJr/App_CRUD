@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+    <span>Contatos</span>
+</mat-toolbar>
+
+<mat-nav-list>
+    <mat-list-item>
+        <a matLine href="x">Contato 1</a>
+        <button mat-icon-button>
+            <mat-icon>delete</mat-icon>
+        </button>
+    </mat-list-item>
+</mat-nav-list>
+<a
+    class="create"
+    routerLink="/contacts/create"
+    mat-fab
+    color="primary"
+    aria-label="Adicionar">
+    <mat-icon>add</mat-icon>
+</a>
